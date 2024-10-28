@@ -1,0 +1,192 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #00b8d4;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #f44336; /* Coração vermelho */
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background: url('banner.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+/* Sobre a Clínica */
+.sobre {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sobre p {
+    margin-bottom: 2rem;
+}
+
+.sobre .informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sobre .informacoes img {
+    width: 150px;
+    height: auto;
+}
+
+.sobre .informacoes ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.sobre .informacoes ul li {
+    padding: 0.5rem 0;
+}
+
+/* Especialidades */
+.especialidades {
+    background-color: #f9f9f9;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.especialidades h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.especialidades p {
+    margin-bottom: 2rem;
+}
+
+.especialidades-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.btn-horarios {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    background-color: #00b8d4;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-horarios:hover {
+    background-color: #0097a7;
+}
+
+/* Contato */
+.contato {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contato p {
+    margin-bottom: 1rem;
+}
+
+.mapa {
+    margin-top: 2rem;
+}
+
+.mapa iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #004d4d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
