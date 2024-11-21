@@ -1,0 +1,161 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina{
+    display: none;
+    text-align: center;
+}
+.logo{
+    background-color: #00b8d4;
+    font-size: 30px;}
+
+main{
+    nav{
+        padding: 10px;
+        a{
+            border-bottom: 2px solid #00695c;
+            color: black;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-decoration: none;
+        }}
+}
+
+/* INICIO REGRAS CSS REFERENTES À PRIMEIRA VERSÃO */
+@media only screen and (max-width: 480px) {
+ .pagina.celular {
+        display: block;
+        img{
+            width: 0px;
+        }
+    }
+  
+  }
+  
+  
+  /* INICIO REGRAS CSS REFERENTES À SEGUNDA VERSÃO */
+  @media only screen and (min-width: 481px) and (max-width: 1024px) {
+ .pagina.laptop {
+        display: block;
+        img{
+            width: 0px;
+        }
+    }
+  
+  }
+  
+  
+  /* INICIO REGRAS CSS REFERENTES À TERCEIRA VERSÃO */
+  @media only screen and (min-width: 1025px) {
+    .pagina.desktop {
+        display: block;
+        img{
+            width: 300px;
+        }
+    }
+  
+  }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #00bcd4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.especialidade {
+    margin-bottom: 40px;
+}
+
+.especialidade h2 {
+    color: #333;
+    border-bottom: 2px solid #00bcd4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.especialidade p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table .header {
+    background-color: #00bcd4;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #00695c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+.ortopedia{
+    display: flex;
+}
+.pediatria{
+    display: flex;
+}
+.Fisioterapia{
+    display: flex;
+}
+.Psicologia{
+    display: flex;
+}
+.geriatria{
+    display: flex;
+}
